@@ -11,26 +11,26 @@ Photo gallery built in Ruby on Rails.
 ## Development
 ## Getting Started
 
-1. Open your terminal and clone the repository to your default directory.
+* Open your terminal and clone the repository to your default directory
 ```console
 git clone https://github.com/openfarmcc/OpenFarm.git
 ```
-2. Navigate to the app directory.
+* Navigate to the app directory
 ```console
-cd galeriephotos
+cd GalRails-photo
 ```
 
 ## Installation
 
-3. Start the web server running on **port 3000**. Therefore, You can access to the app home page.
+* Start the web server running on **port 3000**. Therefore, You can access to the app home page
 ```console
 rails s
 ```
-4. Open a new terminal window, run the following command to install the dependencies.
+* Open a new terminal window, run the following command to install the dependencies
 ```console
 bundle install
 ```
-5. Run the first migration to the database
+* Run the first migration to the database
 ```console
 rake db:migrate
 ```
