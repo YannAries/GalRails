@@ -13,7 +13,7 @@ Photo gallery built in Ruby on Rails.
 
 * Open your terminal and clone the repository to your default directory
 ```console
-git clone https://github.com/openfarmcc/OpenFarm.git
+https://github.com/YannAries/GalRails.git
 ```
 * Navigate to the app directory
 ```console
