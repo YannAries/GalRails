@@ -21,4 +21,4 @@
 .byebug_history
 
 # Secret keys
-*.yml
+/config/*.yml
