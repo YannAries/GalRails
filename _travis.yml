@@ -1,0 +1,14 @@
+sudo: false
+language: ruby
+
+env:
+  - DB=sqlite
+  - RBENV_NATIVE_EXT=
+  - RBENV_NATIVE_EXT=1
+
+bundler_args: --path=vendor/bundle --without heroku
+
+cache: bundler
+
+# Run specs
+script: "RAILS_ENV=test bundle exec rake"
