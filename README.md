@@ -1,4 +1,6 @@
 # GalRails Photo
+[![Code Climate](https://codeclimate.com/github/YannAries/GalRails/badges/gpa.svg)](https://codeclimate.com/github/YannAries/GalRails) [![Issue Count](https://codeclimate.com/github/YannAries/GalRails/badges/issue_count.svg)](https://codeclimate.com/github/YannAries/GalRails)
+
 Photo gallery built in Ruby on Rails.
 
 ## Requirements
