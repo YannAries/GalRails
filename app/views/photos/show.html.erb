@@ -10,7 +10,7 @@
     <p><b>Description: </b><%= @photo.description %></p>
     <p>
       <%= link_to 'Editer', edit_photo_path(@photo) %> |
-      <%= link_to 'Supprimer', @photo, confirm: 'Veux-tu l/a supprimer définitivement?', method: :delete %> |
+      <%= link_to 'Supprimer', @photo, confirm: 'Tu veux l/a supprimer définitivement?', method: :delete %> |
       <%= link_to 'Retour', photos_path %>
     </p>
   </div>

@@ -12,6 +12,6 @@
  *
  *= require_tree .
  *= require_self
- *= require custom.scss
+ *= require custom.css.scss
  *= require font-awesome
  */
