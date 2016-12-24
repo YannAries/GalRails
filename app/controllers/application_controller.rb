@@ -4,3 +4,6 @@ class ApplicationController < ActionController::Base
   # Pour message alerte Bootstrap
   add_flash_types :success, :warning, :danger, :info
 end
+
+def self.helper_method(*); end
+def self.helper(*); end
