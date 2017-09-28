@@ -40,7 +40,6 @@ gem "rubycritic", :require => false
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-<<<<<<< HEAD
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
@@ -48,13 +47,6 @@ end
 # group :production do
   # gem 'pg'
 # end
-
-# désactiver pour déployement
-# gem 'sqlite3'
-=======
-# gem "rubycritic", :require => false
->>>>>>> 8586f92683a38d0bb655098bf7acc9c3d0665ba6
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
