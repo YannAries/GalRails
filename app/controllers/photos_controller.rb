@@ -42,7 +42,7 @@ class PhotosController < ApplicationController
   # PATCH/PUT /photos/1
   # PATCH/PUT /photos/1.json
 
-  # On édite une photo existante
+  # On edite une photo existante
   def update
     respond_to do |format|
       if @photo.update(photo_params)
