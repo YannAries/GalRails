@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
@@ -41,6 +40,7 @@ gem "rubycritic", :require => false
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+<<<<<<< HEAD
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
@@ -51,6 +51,9 @@ end
 
 # désactiver pour déployement
 # gem 'sqlite3'
+=======
+# gem "rubycritic", :require => false
+>>>>>>> 8586f92683a38d0bb655098bf7acc9c3d0665ba6
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -65,6 +68,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+# group :development do
+  # gem 'brakeman', :require => false
+# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

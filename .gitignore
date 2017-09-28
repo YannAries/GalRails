@@ -17,3 +17,47 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+<<<<<<< HEAD
+=======
+# Secret keys
+# /config/*.yml
+
+# various artifacts
+**.war
+*.rbc
+*.sassc
+.rspec
+.redcar/
+.sass-cache
+/config/application.yml
+/config/config.yml
+/config/database.yml
+/config/local_env.yml
+# If you put the config/secrets.yml file into .gitignore,
+# you won’t be able to deploy to Heroku, therefore it is NOT commented out.
+/config/secrets.yml
+/coverage.data
+/coverage/
+/db/*.javadb/
+/db/*.sqlite3
+/doc/api/
+/doc/app/
+/doc/features.html
+/doc/specs.html
+/instructions/*
+/lib/membership-data-entry/*
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/specifications
+rerun.txt
+pickle-email-*.html
+
+# Environment files that may contain sensitive data
+.env
+>>>>>>> 8586f92683a38d0bb655098bf7acc9c3d0665ba6
