@@ -10,8 +10,6 @@ gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Google Fonts
-gem 'google-webfonts-rails'
 # Font Awesome
 gem 'font-awesome-rails'
 # Use Uglifier as compressor for JavaScript assets
