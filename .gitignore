@@ -33,6 +33,8 @@
 /config/config.yml
 /config/database.yml
 /config/local_env.yml
+database.yml
+
 # If you put the config/secrets.yml file into .gitignore,
 # you won’t be able to deploy to Heroku, therefore it is NOT commented out.
 /config/secrets.yml
