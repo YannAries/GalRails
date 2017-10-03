@@ -40,7 +40,7 @@ gem "rubycritic", :require => false
 
 # Use sqlite3 as the database for Active Record
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.13'
 end
 group :production do
   gem 'pg'
