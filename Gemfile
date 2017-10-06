@@ -4,77 +4,65 @@ ruby '2.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
-# Author: Francis Bautista
-# Last Updated: July 9, 2015
-#
-# This Gemfile lists my go-to gems for quick and dirty rails app-dev
-# I usually standardize on them later on, but there are what I use for
-# fast development.
-#
-#===================================#
-#  Core Gems                        #
-#===================================#
-source 'https://rubygems.org'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc'
-
-group :production, :staging do
-    gem "pg"
-    gem 'rails_12factor'
-end
-
-group :development, :test do
-    gem 'sqlite3'
-    gem "better_errors"
-    gem 'byebug'
-    gem 'web-console', '~> 2.0'
-    gem 'spring'
-    #gem 'sunspot_solr'
-end
-
-# gem 'sunspot_rails'
-
-#===================================#
-#  UI Gems                          #
-#===================================#
-# gem 'formtastic',           github: 'justinfrench/formtastic'
-gem 'autoprefixer-rails'
-# gem 'bootstrap-sass', '~> 3.2.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'font-awesome-rails'
-# gem 'simple_form'
-# gem 'country_select'
-gem 'jquery-rails'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+# Simple flexible way to upload files from Ruby applications
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+# Use Puma as the app server
 gem 'puma', '~> 3.0'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+# Font Awesome
+gem 'font-awesome-rails'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.2'
+# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.5'
+# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
 
+# Find out errors
+gem 'rubocop', '~> 0.45.0', require: false
+gem "bullet", :group => "development"
+gem "rubycritic", :require => false
 
-#===================================#
-#  Utility Gems                     #
-#===================================#
-# gem 'seed_dump'
-# gem 'turbolinks'
-# gem 'annotate', ">=2.6.0"
-# gem 'fabrication'
-# gem 'faker'
-# gem 'will_paginate'
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
 
-#===================================#
-#  Functionality Gems               #
-#===================================#
-# gem 'activeadmin', github: 'activeadmin'
-# gem 'inherited_resources', github: 'josevalim/inherited_resources', branch: 'rails-4-2'
-# gem 'cancan'
-# gem 'devise'
-# gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+# Use sqlite3 as the database for Active Record
+group :development do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platform: :mri
+end
 
-#===================================#
-#  Deployment Gems                  #
-#===================================#
-# gem 'capistrano', '~> 3.1.0'
-# gem 'capistrano-bundler', '~> 1.1.2'
-# gem 'capistrano-rails', '~> 1.1.1'
-# gem 'capistrano-rvm', github: "capistrano/rvm"
+group :development do
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'web-console'
+  gem 'listen', '~> 3.0.5'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+# group :development do
+  # gem 'brakeman', :require => false
+# end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
