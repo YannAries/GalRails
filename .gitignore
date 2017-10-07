@@ -33,6 +33,7 @@
 /config/config.yml
 /config/database.yml
 /config/local_env.yml
+.bundle/*
 database.yml
 
 # If you put the config/secrets.yml file into .gitignore,
