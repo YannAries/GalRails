@@ -40,9 +40,9 @@ gem "rubycritic", :require => false
 # gem 'capistrano-rails', group: :development
 
 # Use sqlite3 as the database for Active Record
-# group :development, :test do
-#   gem 'sqlite3', '~> 1.3', '>= 1.3.13'
-# end
+group :development, :test do
+  gem 'sqlite3', '~> 1.3', '>= 1.3.13'
+end
 group :production do
   # gem 'pg'
   gem 'rails_12factor'
