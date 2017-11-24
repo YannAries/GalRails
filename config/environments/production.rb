@@ -84,5 +84,3 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
-
-rails s -b 'ssl://localhost:3000?key=home/leyann75/Localhost key/localhost.key&cert=home/leyann75/Localhost key/localhost.crt'
