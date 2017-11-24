@@ -17,6 +17,17 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+### Ruby ###
+*.gem
+/.config
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
 <<<<<<< HEAD
 =======
 # Secret keys
@@ -35,6 +46,10 @@
 /config/local_env.yml
 .bundle/*
 database.yml
+
+## Environment normalization:
+/.bundle/
+/lib/bundler/man/
 
 # If you put the config/secrets.yml file into .gitignore,
 # you won’t be able to deploy to Heroku, therefore it is NOT commented out.
