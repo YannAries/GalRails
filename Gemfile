@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.1', '>= 5.1.4'
 
 # Simple flexible way to upload files from Ruby applications
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+# gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Font Awesome
@@ -31,8 +32,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'nokogiri', '~> 1.8', '>= 1.8.1'
+
 # Find out errors
-gem 'rubocop', '~> 0.45.0', require: false
+gem 'rubocop', '~> 0.51.0', require: false
 gem "bullet", :group => "development"
 gem "rubycritic", :require => false
 
