@@ -56,7 +56,7 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
-    codeclimate-engine-rb (0.4.0)
+    codeclimate-engine-rb (0.4.1)
       virtus (~> 1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
