@@ -8,7 +8,7 @@ gem 'rails', '~> 5.1', '>= 5.1.4'
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 # Use Puma as the app server
 # gem 'puma', '~> 3.0'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Font Awesome

@@ -142,8 +142,8 @@ GEM
     pg (0.21.0-x86-mingw32)
     powerpack (0.1.1)
     public_suffix (3.0.1)
-    puma (3.11.0)
-    puma (3.11.0-java)
+    puma (3.12.2)
+    puma (3.12.2-java)
     rack (2.0.3)
     rack-test (0.8.2)
       rack (>= 1.0, < 3)
@@ -285,7 +285,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   nokogiri (~> 1.8, >= 1.8.1)
   pg
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.1, >= 5.1.4)
   rails_12factor
   rubocop (~> 0.51.0)
